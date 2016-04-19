@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>Slap Object Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="game.css">
+</head>
+<body>
+
+
+<div class="panel panel-info" id="player-panel"><!--Heading-->
+  <div class="panel-heading">
+  <strong><span class="center-block text-center">Name:<span id="name">Jason</span></span></strong>
+  <strong><span class="center-block text-center">Health:<span id="health"></span></span></strong>
+  <strong><span class="center-block text-center">Hits:<span id="hits"></span></span></strong>
+  </div>
+<div class="panel panel-default"><!--Body-->
+    <div class="panel-body">
+    <img class="center-block" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Stick_Figure.svg/2000px-Stick_Figure.svg.png" alt="stickman" width="220px">
+    </div>
+      <a class="btn btn-success center-block" href="#" role="button"  onClick="sheild()">Sheild</a>
+      <a class="btn btn-success center-block" href="#" role="button"  onClick="forceFeild()">Forcefeild</a>
+      <a class="btn btn-success center-block" href="#" role="button"  onClick="vest()">Vest</a>
+  <div class="panel-footer">
+      <a class="btn btn-danger center-block" href="#" role="button"  onClick="slap()">Slap</a>
+      <a class="btn btn-danger center-block" href="#" role="button"  onClick="punch()">Punch</a>
+      <a class="btn btn-danger center-block" href="#" role="button"  onClick="kick()">Kick</a>
+  </div>
+</div>
+
+
+
+
+
+
+
+	<script src="game.js"></script>
+</body>
+</html>
